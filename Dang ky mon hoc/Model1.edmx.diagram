@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="114c4e450c5542e996786e674b6972ff" Name="Diagram1" ZoomLevel="55" DisplayType="true">
+        <EntityTypeShape EntityType="QLYSVModel.BANGDIEM" Width="1.5" PointX="16.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.CTDAOTAO" Width="1.5" PointX="7.875" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.DANGKY_MONHOC" Width="1.75" PointX="11.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.GIANGVIEN" Width="1.5" PointX="4.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.KHOA" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.LOP" Width="1.5" PointX="16" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.LOPHOC" Width="2.25" PointX="7.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.MONHOC" Width="2.875" PointX="8" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.MONHOC_DAOTAO" Width="1.875" PointX="5.875" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.NGANH" Width="1.5" PointX="5.125" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.QUANLY" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.SINHVIEN" Width="2.25" PointX="11.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYSVModel.TAIKHOAN" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="QLYSVModel.FK_MonHoc_BangDiem" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.FK_SV_MonHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.CuaCTDT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.LopThuocCTDT" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.FK_LopHoc_DangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.FK_SV_DangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.CuaGiangVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.GVThuocKhoa" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.TaiKhoanGV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.NganhThuocKhoa" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.LopThuocNganh" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.SVThuocLop" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.CoMonHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.CuaMonHoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.CuaNganh" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.TaiKhoanQL" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.TaiKhoanSV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYSVModel.MONHOC_TIENQUYET" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
